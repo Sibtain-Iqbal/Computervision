@@ -1,17 +1,13 @@
 import cv2
 
-# Load the image
-image = cv2.imread("image.jpg.png")  # Replace with your actual image filename
 
-# Check if image is loaded successfully
-if image is None:
-    print("Error: Could not read the image.")
-else:
-    # Display the image
-    cv2.imshow("Displayed Image", image)
+image1 = cv2.imread("image.jpg.png")  
+image2 = cv2.imread("capture (1).png")  
 
-    # Wait until a key is pressed
-    cv2.waitKey(0)
+  
+cv2.imshow("Github Image", image1)
+cv2.imshow("React Image", image2)
 
-    # Close all OpenCV windows
-    cv2.destroyAllWindows()
+cv2.waitKey(100000)
+
+cv2.destroyAllWindows()
