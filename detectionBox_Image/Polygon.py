@@ -17,6 +17,6 @@ polygin  = cv2.polylines(img = img ,
  
  )
 
-cv2.imshow("Detection Line",polygin)
+cv2.imshow("Detection Line",polyg   in)
 cv2.waitKey(0)
 cv2.destroyAllWindows(0)
